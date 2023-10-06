@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: sty;
+    src: url(../font/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: sty1;
+    src: url(../font/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: sty2;
+    src: url(../font/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: sty3;
+    src: url(../font/IndieFlower-Regular.ttf);
+}

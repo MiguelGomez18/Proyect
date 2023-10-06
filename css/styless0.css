@@ -1,0 +1,760 @@
+#contenedor{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+article >h2{
+    width: 30%;
+    margin-left: 50px;
+    font-family: sty1;
+    font-size: 30px;
+}
+
+#contenedor >article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul >li{
+    list-style: none;
+    display: inline;
+    width: 33%;
+    text-align: center;
+}
+
+li >.a1{
+    text-decoration: none;
+    color: black;
+    font-family: sty2;
+    font-size: 23px;
+    letter-spacing: 0.10em;
+    width: 100%;
+}
+
+#caja{
+    width: 20%;
+}
+
+.img2{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.icon{
+    height: 0;
+    width: 0;
+}
+
+h1{
+    font-family: sty;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#formulario{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+fieldset{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input{
+    background-color: rgb(180, 180, 180);
+    width: 42%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.inp{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+label{
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: sty3;
+    font-size: 25px;
+}
+
+#subir{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(59, 235, 40);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sty3;
+    font-size: 30px;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-top: 3px solid rgb(172, 172, 172);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sty3;
+}
+
+h2 >a{
+    color: black;
+    font-family: sty3;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+
+    #contenedor{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    #contenedor >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 9px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 15px;
+        width: 15px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        padding-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    h1{
+        font-family: sty;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #formulario{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    fieldset{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form{
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    input{
+        background-color: rgb(180, 180, 180);
+        width: 80%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    
+    .inp{
+        width: 80%;
+        height: 39px;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    label{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    #subir{
+        height: 30px;
+        width: 50%;
+        background-color: rgb(59, 235, 40);
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 98%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 8px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 11px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+
+    #contenedor{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #contenedor >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 12px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 15px;
+        width: 15px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        padding-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    h1{
+        font-family: sty;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #formulario{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    fieldset{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form{
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    input{
+        background-color: rgb(180, 180, 180);
+        width: 80%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    
+    .inp{
+        width: 80%;
+        height: 39px;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    label{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: sty3;
+        font-size: 18px;
+    }
+    
+    #subir{
+        height: 40px;
+        width: 40%;
+        background-color: rgb(59, 235, 40);
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 18px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 13px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+
+    #contenedor{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 25px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    #contenedor >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 20px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        padding-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    h1{
+        font-family: sty;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #formulario{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    fieldset{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form{
+        width: 90%;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    input{
+        background-color: rgb(180, 180, 180);
+        width: 42%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    
+    .inp{
+        width: 80%;
+        height: 39px;
+        border-radius: 20px;
+        padding-left: 40px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    label{
+        width: 42%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: sty3;
+        font-size: 20px;
+    }
+    
+    #subir{
+        height: 40px;
+        width: 30%;
+        background-color: rgb(59, 235, 40);
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 23px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 60px;
+        width: 100%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 13px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}

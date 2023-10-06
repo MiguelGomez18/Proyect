@@ -1,0 +1,859 @@
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+article >h2{
+    width: 30%;
+    margin-left: 50px;
+    font-family: sty1;
+    font-size: 30px;
+}
+
+section >article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul >li{
+    list-style: none;
+    display: inline;
+    width: 33%;
+    text-align: center;
+}
+
+li >.a1{
+    text-decoration: none;
+    color: black;
+    font-family: sty2;
+    font-size: 23px;
+    letter-spacing: 0.10em;
+    width: 100%;
+}
+
+#caja{
+    width: 20%;
+}
+
+.img2{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 50%;
+}
+
+.icon{
+    height: 0;
+    width: 0;
+}
+
+#contenido{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#calendario{
+    text-align: center;
+    height: 309px;
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#calendario >h1{
+    font-family: sty3; 
+    font-size: 50px;
+}
+
+#calendario >h2{
+    margin-top: 130px;
+    font-family: sty3; 
+    font-size: 45px;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+#cale{
+    font-family: sty3; 
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ele{
+    background-color: rgb(169, 169, 169);
+}
+
+.primero{
+    grid-column-start: 4;
+}
+
+.dia{
+    color: black;
+    font-weight: bold;
+    font-family: sty3;
+    font-size: 25px;
+}
+
+table{
+    width: 45%;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fi{
+    border-radius: 0 0 0 20px;
+}
+
+.fi1{
+    border-radius: 0 0 20px 0;
+}
+
+tr{
+   background-color: white;
+}
+
+th{
+    font-family: sty3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td{
+    font-family: sty3;
+}
+
+.img1{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.title{
+    border-radius: 20px 20px 0 0;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-top: 3px solid rgb(172, 172, 172);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sty3;
+}
+
+h2 >a{
+    color: black;
+    font-family: sty3;
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 20px;
+        font-family: sty1;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 10px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 15px;
+        width: 15px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 3px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #contenido{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #calendario{
+        text-align: center;
+        height: 181px;
+        width: 85%;
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+    
+    #calendario >h1{
+        font-family: sty3; 
+        font-size: 20px;
+    }
+    
+    #calendario >h2{
+        margin-top: 130px;
+        font-family: sty3; 
+        font-size: 25px;
+    }
+    
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+    }
+    
+    #cale{
+        font-family: sty3; 
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .ele{
+        background-color: rgb(169, 169, 169);
+    }
+    
+    .primero{
+        grid-column-start: 4;
+    }
+    
+    .dia{
+        color: black;
+        font-weight: bold;
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    table{
+        width: 85%;
+        background-color: black;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .fi{
+        border-radius: 0 0 0 10px;
+    }
+    
+    .fi1{
+        border-radius: 0 0 10px 0;
+    }
+    
+    tr{
+       background-color: white;
+    }
+    
+    th{
+        font-family: sty3;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    td{
+        font-family: sty3;
+        font-size: 13px;
+    }
+    
+    .img1{
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .title{
+        border-radius: 10px 10px 0 0;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        border-top: 2px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 9px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 20px;
+        font-family: sty1;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 10px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 15px;
+        width: 15px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #contenido{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #calendario{
+        text-align: center;
+        height: 181px;
+        width: 85%;
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+    
+    #calendario >h1{
+        font-family: sty3; 
+        font-size: 20px;
+    }
+    
+    #calendario >h2{
+        margin-top: 130px;
+        font-family: sty3; 
+        font-size: 25px;
+    }
+    
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+    }
+    
+    #cale{
+        font-family: sty3; 
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .ele{
+        background-color: rgb(169, 169, 169);
+    }
+    
+    .primero{
+        grid-column-start: 4;
+    }
+    
+    .dia{
+        color: black;
+        font-weight: bold;
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    table{
+        width: 85%;
+        background-color: black;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .fi{
+        border-radius: 0 0 0 10px;
+    }
+    
+    .fi1{
+        border-radius: 0 0 10px 0;
+    }
+    
+    tr{
+       background-color: white;
+    }
+    
+    th{
+        font-family: sty3;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    td{
+        font-family: sty3;
+        font-size: 13px;
+    }
+    
+    .img1{
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .title{
+        border-radius: 10px 10px 0 0;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        border-top: 2px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 9px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 12px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 13px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    .img2{
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #contenido{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #calendario{
+        text-align: center;
+        height: 181px;
+        width: 85%;
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+    
+    #calendario >h1{
+        font-family: sty3; 
+        font-size: 20px;
+    }
+    
+    #calendario >h2{
+        margin-top: 130px;
+        font-family: sty3; 
+        font-size: 25px;
+    }
+    
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+    }
+    
+    #cale{
+        font-family: sty3; 
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .ele{
+        background-color: rgb(169, 169, 169);
+    }
+    
+    .primero{
+        grid-column-start: 4;
+    }
+    
+    .dia{
+        color: black;
+        font-weight: bold;
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    table{
+        width: 85%;
+        background-color: black;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .fi{
+        border-radius: 0 0 0 10px;
+    }
+    
+    .fi1{
+        border-radius: 0 0 10px 0;
+    }
+    
+    tr{
+       background-color: white;
+    }
+    
+    th{
+        font-family: sty3;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    td{
+        font-family: sty3;
+        font-size: 15px;
+    }
+    
+    .img1{
+        margin-top: 13px;
+        margin-right: 13px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .title{
+        border-radius: 10px 10px 0 0;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        border-top: 2px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}

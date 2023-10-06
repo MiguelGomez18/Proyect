@@ -1,0 +1,776 @@
+header{
+    background-image: url(../img/deer-3275594_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .99;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+header >h1{
+    color: rgb(255, 255, 255);
+    font-family: sty;
+    letter-spacing: 0.10em;  
+    font-size: 80px;
+}
+
+#descrip{
+    height: 150px;
+    width: 50%;
+}
+
+#descrip >h2{
+    color: rgb(165, 165, 165);
+    font-family: sty;
+    font-size: 30px;
+    margin-top: 30px;
+    word-spacing: 0.25em;
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+article >h2{
+    width: 30%;
+    margin-left: 50px;
+    font-family: sty1;
+    font-size: 35px;
+}
+
+section >article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul >li{
+
+    list-style: none;
+    display: inline;
+    width: 33%;
+    text-align: center;
+}
+
+li >.a1{
+    text-decoration: none;
+    color: black;
+    font-family: sty2;
+    font-size: 23px;
+    letter-spacing: 0.10em;
+    width: 100%;
+}
+
+#caja{
+    width: 20%;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 50%;  
+}
+
+.icon{
+    width: 0;
+    height: 0;
+}
+
+.autor{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.auto{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.auto >img{
+    height: 400px;
+    width: 80%;
+    border: 3px solid rgb(172, 172, 172);
+}
+
+.auto1{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.auto1 >img{
+    height: 400px;
+    width: 80%;
+    border: 3px solid rgb(172, 172, 172);
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-top: 3px solid rgb(172, 172, 172);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sty3;
+}
+
+h2 >a{
+    color: black;
+    font-family: sty3;
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+
+    header{
+        background-image: url(../img/deer-3275594_1920.jpg);
+        background-size: 100% 80vh;
+        background-repeat: no-repeat;
+        opacity: .99;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    
+    header >h1{
+        color: rgb(255, 255, 255);
+        font-family: sty;
+        letter-spacing: 0.10em;  
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    #descrip{
+        height: 150px;
+        width: 50%;
+    }
+    
+    #descrip >h2{
+        color: rgb(165, 165, 165);
+        font-family: sty;
+        font-size: 12px;
+        margin-top: 30px;
+        word-spacing: 0.25em;
+        text-align: center;
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 9px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    img{
+        height: 12px;
+        width: 12px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 5px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    .autor{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    
+    .auto{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        
+    }
+    
+    .auto >img{
+        height: 200px;
+        width: 100%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    .auto1{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-right: 25px;
+    }
+    
+    .auto1 >img{
+        height: 200px;
+        width: 100%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: sty3;
+        font-size: 9px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 11px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+
+    header{
+        background-image: url(../img/deer-3275594_1920.jpg);
+        background-size: 100% 80vh;
+        background-repeat: no-repeat;
+        opacity: .99;
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    
+    header >h1{
+        color: rgb(255, 255, 255);
+        font-family: sty;
+        letter-spacing: 0.10em;  
+        font-size: 40px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    #descrip{
+        height: 150px;
+        width: 70%;
+    }
+    
+    #descrip >h2{
+        color: rgb(165, 165, 165);
+        font-family: sty;
+        font-size: 18px;
+        margin-top: 30px;
+        word-spacing: 0.25em;
+        text-align: center;
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 12px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 20%;
+    }
+    
+    img{
+        height: 18px;
+        width: 18px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 5px;
+    }*/
+    
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+
+    .autor{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    
+    .auto{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-right: 25px;
+        
+    }
+    
+    .auto >img{
+        height: 250px;
+        width: 90%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    .auto1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-right: 25px;
+    }
+    
+    .auto1 >img{
+        height: 250px;
+        width: 90%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    footer{
+        background-color: white;
+        height: 80px;
+        width: 100%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: sty3;
+        font-size: 11px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+}
+
+@media screen and (min-width: 571px) and (max-width: 1037px){
+
+    header{
+        background-image: url(../img/deer-3275594_1920.jpg);
+        background-size: 100% 80vh;
+        background-repeat: no-repeat;
+        opacity: .99;
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    
+    header >h1{
+        color: rgb(255, 255, 255);
+        font-family: sty;
+        letter-spacing: 0.10em;  
+        font-size: 50px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    #descrip{
+        height: 150px;
+        width: 70%;
+    }
+    
+    #descrip >h2{
+        color: rgb(165, 165, 165);
+        font-family: sty;
+        font-size: 23px;
+        margin-top: 30px;
+        word-spacing: 0.25em;
+        text-align: center;
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 15px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 20%;
+    }
+    
+    img{
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 10px;
+    }*/
+    
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+
+    .autor{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    
+    .auto{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-right: 25px;
+        
+    }
+    
+    .auto >img{
+        height: 350px;
+        width: 90%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    .auto1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-right: 25px;
+    }
+    
+    .auto1 >img{
+        height: 350px;
+        width: 90%;
+        border: 3px solid rgb(172, 172, 172);
+    }
+    
+    footer{
+        background-color: white;
+        height: 90px;
+        width: 98%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sty3;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}

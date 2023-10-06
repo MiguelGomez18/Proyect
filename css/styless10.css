@@ -1,0 +1,725 @@
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+article >h2{
+    width: 30%;
+    margin-left: 50px;
+    font-family: sty1;
+    font-size: 30px;
+}
+
+section >article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+ul >li{
+    list-style: none;
+    display: inline;
+    width: 33%;
+    text-align: center;
+}
+
+li >.a1{
+    text-decoration: none;
+    color: black;
+    font-family: sty2;
+    font-size: 23px;
+    letter-spacing: 0.10em;
+    width: 100%;
+}
+
+#caja{
+    width: 20%;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 50%;
+}
+
+.icon{
+    height: 0;
+    width: 0;
+}
+
+#todo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+#tema{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tema >h1{
+    font-family: sty1;
+    font-size: 30px;
+}
+
+#tema >h2{
+    font-family: sty1;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#bio{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bio h3{
+    font-family: sty1;
+    font-size: 25px;
+}
+
+#bio >h4{
+    font-family: sty3;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+#obra{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obra{
+    height: 750px;
+    width: 90%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-top: 3px solid rgb(172, 172, 172);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sty3;
+}
+
+h2 >a{
+    color: black;
+    font-family: sty3;
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 14px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 5px;
+        font-family: sty1;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 10px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    img{
+        height: 15px;
+        width: 15px;
+        margin-left: 20px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 3px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #todo{
+        height: auto;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    #tema{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #tema >h1{
+        font-family: sty1;
+        font-size: 15px;
+    }
+    
+    #tema >h2{
+        font-family: sty1;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #bio{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #bio h3{
+        font-family: sty1;
+        font-size: 15px;
+    }
+    
+    #bio >h4{
+        font-family: sty3;
+        font-size: 13px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    #obra{
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .obra{
+        height: 350px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 98%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 6px;
+        font-family: sty3;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 9px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 15px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 12px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    img{
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 3px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #todo{
+        height: auto;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    #tema{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #tema >h1{
+        font-family: sty1;
+        font-size: 18px;
+    }
+    
+    #tema >h2{
+        font-family: sty1;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #bio{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #bio h3{
+        font-family: sty1;
+        font-size: 18px;
+    }
+    
+    #bio >h4{
+        font-family: sty3;
+        font-size: 15px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    #obra{
+        width: 96%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .obra{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 50px;
+        width: 98%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-family: sty3;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 12px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+
+    section{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-top: 25px;
+    }
+    
+    article >h2{
+        width: 30%;
+        margin-left: 10px;
+        font-family: sty1;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    section >article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    /*ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    ul >li{
+        list-style: none;
+        display: inline;
+        width: 33%;
+        text-align: center;
+    }
+    
+    li >.a1{
+        text-decoration: none;
+        color: black;
+        font-family: sty2;
+        font-size: 14px;
+        letter-spacing: 0.10em;
+        width: 100%;
+    }*/
+    
+    #caja{
+        width: 40%;
+    }
+    
+    img{
+        height: 18px;
+        width: 18px;
+        margin-left: 10px;
+    }
+    
+    /*nav{
+        width: 50%;
+        margin-right: 3px;
+    }*/
+
+    .nav{
+        width: 30%;
+        padding: 0 20px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0px;
+        right: 0;
+        background-color: rgb(146, 146, 146);
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top right);
+        transition: clip-path .4s;
+    }
+
+    .a1{
+        text-decoration: none;
+        color: black;
+    }
+
+    .target >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .links:target{
+        clip-path: circle(150% at top right);
+        text-align: center;
+        width: 100%;
+    }
+    
+    #todo{
+        height: auto;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    #tema{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #tema >h1{
+        font-family: sty1;
+        font-size: 23px;
+    }
+    
+    #tema >h2{
+        font-family: sty1;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #bio{
+        height: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #bio h3{
+        font-family: sty1;
+        font-size: 23px;
+    }
+    
+    #bio >h4{
+        font-family: sty3;
+        font-size: 18px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    #obra{
+        width: 96%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+    
+    .obra{
+        height: 520px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    footer{
+        background-color: white;
+        height: 70px;
+        width: 98%;
+        border-top: 3px solid rgb(172, 172, 172);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        font-family: sty3;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    h2 >a{
+        color: black;
+        font-family: sty3;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
